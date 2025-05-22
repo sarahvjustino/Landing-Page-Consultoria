@@ -133,6 +133,7 @@ header {
   padding: 1rem 3rem;
   margin-top: 3rem;
   border-radius: 2rem;
+  text-align: center;
 }
 
 .button:hover {
@@ -504,6 +505,21 @@ CSS DE AREÁS ESSPECÍFICAS
     color: #b28753;
   }
 
+  .banner h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .banner h2 {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .banner .button {
+    width: 25rem;
+    text-align: center;
+  }
+
   .section-aboutus {
     flex-direction: column;
   }
@@ -596,11 +612,17 @@ CSS DE AREÁS ESSPECÍFICAS
   }
 
   .banner h1 {
+    text-align: center;
     font-size: 30px;
   }
 
   .banner h2 {
+    text-align: center;
     font-size: 17px;
+  }
+
+  .banner .button {
+    width: 25rem;
   }
 
   .section-aboutus {
